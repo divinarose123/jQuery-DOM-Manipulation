@@ -34,13 +34,15 @@ a {
 }
 
 .section {
+  height: 0;
+  width: 50px;
   display: none;
-  transition: height 2s;
-  transition-timing-function: linear;
+  transition: 1s height ease-in;
   overflow: hidden;
 }
 
 .section.active {
+  height: 50px;
   display: block;
   overflow: auto;
 }
