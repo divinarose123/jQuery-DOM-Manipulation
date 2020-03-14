@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 20%;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #00daec;
+  
+}
+div.title {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+h2 {
+  background: #00daec;
+  color: #fff;
+  padding: 5px 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section {
+  display: none;
+  transition: height 2s;
+  transition-timing-function: linear;
+  overflow: hidden;
+}
+
+.section.active {
+  display: block;
+  overflow: auto;
+}
+
+p {
+  text-align: center;
+}
